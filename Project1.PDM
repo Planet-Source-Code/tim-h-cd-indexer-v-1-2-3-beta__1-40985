@@ -1,0 +1,152 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Drive Mirror 2]
+Icon1=DM2.exe
+Title1=Drive Mirror 2
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Tim\VB\CD Indexer\Pakage
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+alllngs.dat=C:\Tim\VB\CD Indexer\Language\alllngs.dat
+help.txt=C:\Tim\VB\CD Indexer\help.txt
+English.lng=C:\Tim\VB\CD Indexer\Language\English.lng
+Svenska.lng=C:\Tim\VB\CD Indexer\Language\Svenska.lng
+
+[Package|Standard Setup Package 1|Files Released]
+Nederlands.lng=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Comdlg32.ocx=
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\MSINET.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\tim\vb\cd indexer\help.txt=
+alllngs.dat=
+english.lng=
+svenska.lng=
+c:\tim\vb\cd indexer\listdata\listbase.dat=
+c:\tim\vb\cd indexer\listdata\put.dat=
+c:\tim\vb\cd indexer\language\dutch.lng=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Tim\VB\CD Indexer\CDI.exe=Yes
+C:\Tim\VB\CD Indexer\help.txt=Yes
+C:\Tim\VB\CD Indexer\Language\alllngs.dat=Yes
+C:\Tim\VB\CD Indexer\Language\English.lng=Yes
+C:\Tim\VB\CD Indexer\Language\Svenska.lng=Yes
+C:\Tim\VB\CD Indexer\Listdata\listbase.dat=Yes
+C:\Tim\VB\CD Indexer\Listdata\put.dat=Yes
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\Tim\VB\CD Indexer\Language\Dutch.lng=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Tim\VB\Drive Mirror 2\DM2.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Tim\VB\Drive Mirror 2\help.txt=$(AppPath)
+C:\Tim\VB\Drive Mirror 2\Language\alllngs.dat=$(AppPath)\Language
+C:\Tim\VB\Drive Mirror 2\Language\English.lng=$(AppPath)\Language
+C:\Tim\VB\Drive Mirror 2\Language\Svenska.lng=$(AppPath)\Language
+C:\Tim\VB\CD Indexer\CDI.exe=$(AppPath)
+C:\Tim\VB\CD Indexer\help.txt=$(AppPath)
+C:\Tim\VB\CD Indexer\Language\alllngs.dat=$(AppPath)\Language
+C:\Tim\VB\CD Indexer\Language\English.lng=$(AppPath)\Language
+C:\Tim\VB\CD Indexer\Language\Svenska.lng=$(AppPath)\Language
+C:\Tim\VB\CD Indexer\Listdata\listbase.dat=$(AppPath)\Listdata
+C:\Tim\VB\CD Indexer\Listdata\put.dat=$(AppPath)\Listdata
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\Tim\VB\CD Indexer\Language\Nederlands.lng=$(AppPath)\Language
+C:\Tim\VB\CD Indexer\Language\Dutch.lng=$(AppPath)\Language
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Tim\VB\Drive Mirror 2\DM2.exe=No
+C:\Tim\VB\Drive Mirror 2\help.txt=No
+C:\Tim\VB\Drive Mirror 2\Language\alllngs.dat=No
+C:\Tim\VB\Drive Mirror 2\Language\English.lng=No
+C:\Tim\VB\Drive Mirror 2\Language\Svenska.lng=No
+C:\Tim\VB\CD Indexer\CDI.exe=No
+C:\Tim\VB\CD Indexer\help.txt=No
+C:\Tim\VB\CD Indexer\Language\alllngs.dat=No
+C:\Tim\VB\CD Indexer\Language\English.lng=No
+C:\Tim\VB\CD Indexer\Language\Svenska.lng=No
+C:\Tim\VB\CD Indexer\Listdata\listbase.dat=No
+C:\Tim\VB\CD Indexer\Listdata\put.dat=No
+C:\Tim\VB\CD Indexer\Language\Nederlands.lng=No
+C:\Tim\VB\CD Indexer\Language\Dutch.lng=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=CD Indexer 1.2.3 beta
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Tim\VB\CD Indexer\Pakage
+ProjectFolder=C:\Tim\VB\CD Indexer
+ServerSideCab=
+File1=C:\Tim\VB\CD Indexer\Pakage\setup.exe
+File2=C:\Tim\VB\CD Indexer\Pakage\Setup.Lst
+File3=C:\Tim\VB\CD Indexer\Pakage\CDI.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=CD Indexer
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|CD Indexer]
+Icon1=cdi.exe
+Title1=CD Indexer
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=help.txt
+Title2=help
+StartIn2=$(AppPath)
+Key2=Icon2
